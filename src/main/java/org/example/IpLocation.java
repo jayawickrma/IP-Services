@@ -6,7 +6,7 @@ import okhttp3.Response;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
-public class Geolocation {
+public class IpLocation {
     public static void main(String[] args) {
         OkHttpClient client = new OkHttpClient();
         String apiKey = "Ip2LocationExporter";
