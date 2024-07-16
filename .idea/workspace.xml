@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8692d2d-3695-4008-acf4-d1312c19c690" name="Changes" comment="finding ip address location edited">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/NetworkClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/NetworkClass.java" afterDir="false" />
+    <list default="true" id="c8692d2d-3695-4008-acf4-d1312c19c690" name="Changes" comment="get IP Address using Scanner input">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SubnetMask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SubnetMask.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,20 +54,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NetworkClass">
-    <configuration name="IP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.IP" />
-      <module name="iplocation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SubnetMaskGenerator">
     <configuration name="IpLocation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.IpLocation" />
       <module name="iplocation" />
@@ -119,13 +107,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SubnetMaskGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.SubnetMaskGenerator" />
+      <module name="iplocation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SubnetMaskGenerator" />
+        <item itemvalue="Application.SubnetMask" />
         <item itemvalue="Application.NetworkClass" />
         <item itemvalue="Application.NetworkInfo" />
         <item itemvalue="Application.IpLocation" />
-        <item itemvalue="Application.SubnetMask" />
-        <item itemvalue="Application.IP" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +139,7 @@
       <option name="presentableId" value="Default" />
       <updated>1721101420206</updated>
       <workItem from="1721101421697" duration="10398000" />
-      <workItem from="1721146983215" duration="1387000" />
+      <workItem from="1721146983215" duration="2071000" />
     </task>
     <task id="LOCAL-00001" summary="finding ip address location edited">
       <created>1721147316286</created>
@@ -147,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1721147316286</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="get IP Address using Scanner input">
+      <created>1721148586758</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1721148586758</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +163,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="finding ip address location edited" />
-    <option name="LAST_COMMIT_MESSAGE" value="finding ip address location edited" />
+    <MESSAGE value="get IP Address using Scanner input" />
+    <option name="LAST_COMMIT_MESSAGE" value="get IP Address using Scanner input" />
   </component>
 </project>
