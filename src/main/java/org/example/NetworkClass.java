@@ -1,8 +1,12 @@
 package org.example;
 
+import java.util.Scanner;
+
 public class NetworkClass {
     public static void main(String[] args) {
-        String ipAddress = "175.157.236.246";  // Example IP address
+        Scanner scanner =new Scanner(System.in);
+        System.out.print("Enter your IP Address -: ");
+        String ipAddress = scanner.nextLine(); // Example IP address
 
         String[] octets = ipAddress.split("\\.");
         int firstOctet = Integer.parseInt(octets[0]);
